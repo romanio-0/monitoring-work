@@ -108,7 +108,7 @@ void saveScreen(screenData *screen, const wchar_t *path){
 
 void printScreen(screenData* screen) {
     HINSTANCE hInst = nullptr;
-    int nCmdShow = 1;
+    int nCmdShow = SW_SHOW;
 
     GdiplusStartupInput gdiplusStartupInput;
     ULONG_PTR gdiplusToken;

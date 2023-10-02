@@ -109,6 +109,8 @@ clientData setClientData() {
 
 
 int main(int argc, char *argv[]) {
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
+
     char ipServ[IP_LEN + 1] = {0};
 
     if (argc == 2){
