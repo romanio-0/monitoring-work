@@ -9,3 +9,4 @@ The 1069 port is used
 
 ### Client argv
 At startup you should specify the ip address `xxx.xxx.xxx.xxx.xxx` as a parameter, the previous ip will be used at subsequent startups.
+At the first start, start with administrator rights
